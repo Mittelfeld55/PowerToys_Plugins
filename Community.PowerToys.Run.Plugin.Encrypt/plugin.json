@@ -1,0 +1,14 @@
+{
+  "ID": "8F8D3C0D80A14C519FCE259A2887E558",
+  "ActionKeyword": "§§",
+  "IsGlobal": false,
+  "Name": "Encrypt",
+  "Author": "Mittelfeld55",
+  "Version": "0.87.0",
+  "Language": "csharp",
+  "Website": "https://github.com/Mittelfeld55/PowerToys_Plugins/tree/main/Community.PowerToys.Run.Plugin.Encrypt",
+  "ExecuteFileName": "Community.PowerToys.Run.Plugin.Encrypt.dll",
+  "IcoPathDark": "Images\\encrypt.dark.png",
+  "IcoPathLight": "Images\\encrypt.light.png",
+  "DynamicLoading": false
+}
