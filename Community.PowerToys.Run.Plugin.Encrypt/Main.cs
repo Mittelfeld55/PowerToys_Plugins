@@ -20,7 +20,7 @@ namespace Community.PowerToys.Run.Plugin.Encrypt
         /// <summary>
         /// Name of the plugin.
         /// </summary>
-        public string Name => "Encrypt";
+        public string Name => "Encrypter";
 
         /// <summary>
         /// Description of the plugin.

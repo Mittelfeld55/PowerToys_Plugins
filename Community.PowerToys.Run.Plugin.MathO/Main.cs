@@ -5,7 +5,7 @@ using System.Windows;
 using System.Windows.Input;
 using Wox.Plugin;
 
-namespace Community.PowerToys.Run.Plugin.Percent
+namespace Community.PowerToys.Run.Plugin.MathO
 {
     /// <summary>
     /// Main class of this plugin that implement all used interfaces.
@@ -15,17 +15,17 @@ namespace Community.PowerToys.Run.Plugin.Percent
         /// <summary>
         /// ID of the plugin.
         /// </summary>
-        public static string PluginID => "61FF6C7063574B75B43F2AA6F65665FA";
+        public static string PluginID => "28CAA310AF2B4BC2B81CAEBD406CDC1F";
 
         /// <summary>
         /// Name of the plugin.
         /// </summary>
-        public string Name => "Percent";
+        public string Name => "MathO";
 
         /// <summary>
         /// Description of the plugin.
         /// </summary>
-        public string Description => "Directly Calculate Percentages of Values";
+        public string Description => "MathO Description";
 
         private PluginInitContext Context { get; set; }
 
@@ -129,7 +129,7 @@ namespace Community.PowerToys.Run.Plugin.Percent
             Disposed = true;
         }
 
-        private void UpdateIconPath(Theme theme) => IconPath = theme == Theme.Light || theme == Theme.HighContrastWhite ? "Images/percent.light.png" : "Images/percent.dark.png";
+        private void UpdateIconPath(Theme theme) => IconPath = theme == Theme.Light || theme == Theme.HighContrastWhite ? "Images/matho.light.png" : "Images/matho.dark.png";
 
         private void OnThemeChanged(Theme currentTheme, Theme newTheme) => UpdateIconPath(newTheme);
     }

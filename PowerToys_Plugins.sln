@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Community.PowerToys.Run.Plugin.Encrypt", "Community.PowerToys.Run.Plugin.Encrypt\Community.PowerToys.Run.Plugin.Encrypt.csproj", "{350A9945-EAED-7C5B-B493-5CFDEE205895}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Community.PowerToys.Run.Plugin.MathO", "Community.PowerToys.Run.Plugin.MathO\Community.PowerToys.Run.Plugin.MathO.csproj", "{F768528A-45E2-EB27-FD93-CA7D91D98CA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{350A9945-EAED-7C5B-B493-5CFDEE205895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{350A9945-EAED-7C5B-B493-5CFDEE205895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{350A9945-EAED-7C5B-B493-5CFDEE205895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{350A9945-EAED-7C5B-B493-5CFDEE205895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F768528A-45E2-EB27-FD93-CA7D91D98CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F768528A-45E2-EB27-FD93-CA7D91D98CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F768528A-45E2-EB27-FD93-CA7D91D98CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F768528A-45E2-EB27-FD93-CA7D91D98CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DEEA5D9-9111-419F-BAE7-768B220DFEE1}
+	EndGlobalSection
+EndGlobal
