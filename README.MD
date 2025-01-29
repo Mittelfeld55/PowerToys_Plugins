@@ -1,5 +1,7 @@
 # Plugins für Microsoft Powertoys Run
 
+Aktuell noch in Arbeit!!
+
 ## Plugins
 1. [Generelle Informationen](#Generelle_Informationen)
 2. [Encrypter und Decrypter](#Über-das-Projekt)
@@ -29,7 +31,7 @@
 #### _Befehlsstruktur_
 
 
-    M0 <Option> <Value(s)>
+    MO <Option> <Value(s)>
 
     Options: [avg, med, mea, per]
     -avg: Avergae
